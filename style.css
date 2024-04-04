@@ -1,0 +1,149 @@
+html, body, section {
+  margin: 0; 
+  padding: 0; 
+  scroll-snap-type: y mandatory;
+  block-size: 100%;
+}
+
+body,
+.content {
+  font-family: Inter, sans-serif;
+}
+
+.content {
+  margin-top: 70px;
+  margin-left: 70px;
+  font-size: 40px;
+}
+
+.landingcontent {
+  align-items: center;
+  margin-left: 50px;
+  font-size: 30px;
+}
+
+.text1 {
+  margin-top: 100px; 
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.text-group {
+  display: flex;
+  margin-top: -30px; 
+}
+
+.text2 {
+  font-size: 50px;
+  margin-left: 7px; 
+  margin-right: 7px;
+  color: #D36135;
+}
+
+.flex-container {
+  display:flex;
+  flex-direction:reverse;
+  align-items:center;
+  row-gap:5px;
+}
+
+img {
+  margin-right:100px;
+  max-width:50%;
+  margin-bottom:500px;
+}
+
+.body-text {
+  flex-grow:10;
+  font-size: 25px;
+  margin-right:500px;
+  margin-bottom:500px;
+}
+
+.tl-section {
+  display: flex;
+  align-items: center;
+  padding-left: 50px; 
+}
+
+.tl-header {
+  font-size: 40px;
+}
+
+section {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  display: flex;
+}
+
+/* alternating colors */
+section:nth-of-type(even) {
+  color: white;
+  background: black;
+}
+
+section:nth-of-type(odd) {
+  color: black;
+  background: white;
+}
+
+.row {
+  padding-left:60px;
+  width:500%;
+}
+
+.timeline {
+	 padding: 5rem 0;
+}
+ .timeline .active {
+	 background: #E6AA68;
+	 height: 0.5rem;
+	 float: left;
+	 position: relative;
+}
+ .timeline .inactive {
+	 background: #eee;
+	 height: 0.5rem;
+	 float: left;
+	 position: relative;
+}
+ .timeline .start {
+	 height: 1rem;
+	 width: 1rem;
+	 position: absolute;
+	 right: 0;
+	 background: #D36135;
+	 border-radius: 50%;
+	 top: -0.3125rem;
+	 right: -0.625rem;
+	 z-index: 5;
+}
+ .timeline .start span {
+	 position: absolute;
+	 font-size: 1rem;
+   font-family: Tahoma, sans-serif;
+	 width: 200px;
+	 right: -90px;
+	 top: 20px;
+	 text-align: center;
+}
+ .timeline .inactive-start {
+	 height: 1rem;
+	 width: 1rem;
+	 position: absolute;
+	 right: 0;
+	 background: #d5d5d5;
+	 border-radius: 50%;
+	 top: -0.3125rem;
+	 right: -0.625rem;
+	 z-index: 5;
+}
+ .timeline .inactive-start span {
+	 position: absolute;
+	 font-family: Tahoma, sans-serif;
+   font-size: 1rem;
+	 width: 200px;
+	 right: -90px;
+	 top: 20px;
+	 text-align: center;
+}
